@@ -105,6 +105,7 @@ img{
   padding: 1rem;
 }
 .icon{
+  max-width: 60px;
   position: absolute;
   z-index: 3;
   bottom: 0;
