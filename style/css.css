@@ -109,4 +109,8 @@ img{
   justify-content: flex-end;
   padding: 1rem;
 }
-
+.title-p{
+  display: flex;
+  flex-flow: column;
+  gap: .5rem;
+}
