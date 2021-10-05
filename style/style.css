@@ -90,7 +90,7 @@ header nav ul li a:hover {
 }
 
 header .logo a {
-  font-size: 4rem;
+  font-size: clamp(1.5rem, 8vw - 2rem, 2rem);
   font-family: Georgia, "Times New Roman", Times, serif;
   text-decoration: none;
 }
