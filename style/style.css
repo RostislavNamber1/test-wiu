@@ -209,6 +209,11 @@ main {
           flex-flow: column;
   gap: 1em;
 }
+@media (max-width: 800px) {
+  .stat article {
+    width: 100%;
+  }
+}
 
 article h1 {
   color: #2c2c2c;
