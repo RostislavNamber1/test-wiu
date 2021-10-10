@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+  
+  <!-- кодировка страницы сайта -->
+  <meta charset="utf-8">
+  <!-- для адаптива страниц -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- автор -->
+  <meta name="author" content="Дащенко Ростислав Русланович">
+  <!-- описание сайта -->
+  <meta name="description" content="Есть много различных способов это сделать круг на CSS! Но я покажу тебе самый простой и самое главное легкий способ.">
+  <!-- ключи для страницы -->
+  <meta name="keywords" content="css, круг, border-radius, midlcode">
+  <!-- для индексации поскового робота -->
+  <meta name="robots" content="index, follow">
+  <!-- иконки для сайта -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/favicon/site.webmanifest">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+  <!-- подключение стилей -->
+  <link rel="stylesheet" href="/style/style.css">
+  <!-- <link rel="stylesheet" href="/style/cart.css"> -->
+  <!-- альтернативные ссылки для языковых клонов страниц -->
+  <link rel="alternate" hreflang="x-default" href="https://midlcode.com/article/making-a-circle-in-30-seconds-on-pure-css.html" /> 
+  <link rel="alternate" hreflang="ru" href="https://midlcode.com/ru/article/making-a-circle-in-30-seconds-on-pure-css.html" /> 
+  <link rel="alternate" hreflang="en" href="https://midlcode.com/article/making-a-circle-in-30-seconds-on-pure-css.html" /> 
+  <!-- заголовком страницы сайта -->
+  <title>display flex полное руководство по применению и настройки блоков- Midlcode.com</title>
+
+
+</head>
+  <body>
+      
+    <header>
+        <div class="logo"> <a href="/ru/">
+Midl[code]        </a></div>
+        <nav>
+            <!-- <ul>
+                <li><a href="" target="_blank">Главная</a></li>
+                <li><a href="" target="_blank">Главная</a></li>
+                <li><a href="" target="_blank">Главная</a></li>
+            </ul> -->
+            <a href="/article/display-flex.html">
+              <img class="yzik" src="/img/eng.png" alt="" width="32px" height="32px">
+          </a>
+        </nav>
+    </header>
+
+<!-- *********************************************************************** -->
+
+      <!-- Секция с заголовком блога и картинкой -->
+      
+      <!-- Секция с заголовком блога и картинкой -->
+<!-- *********************************************************************** -->
+      <main class="stat">
+          
+          <article>
+            <h1>Полное руководство по использованию display-flex <br>(С примерами)</h1> 
+            <div class="time-article">
+                <time datetime="2021-10-08T11:15:00+03:00">Статья опубликована 8.10.2021 11:15</time>
+            </div>    
+            <div class="img__article">
+                <picture>
+                  <!-- <source srcset="/img/" type="image/avif">
+                  <source srcset="/img/" type="image/webp"> -->
+                    <img src="/img/dfw1920.jpg" alt="круг и человек" loading="lazy" decoding="async"
+                     width="1000px" height="350px">
+                </picture>
+            </div>
+            <div class="article-p">
+                <h2>display: flex</h2>
+                <p>Для того чтобы увидеть эффект гибких блоков нам потребуется следующая конструкция</p>
+                
+                <code>
+                  <span class="lang">html</span>
+                  <pre>
+&lt;<span class="div-red">div</span> <span class="class-yelow">class="d-flex"</span>&gt;
+    &lt;<span class="div-red">div</span> <span class="class-yelow">class="item"</span>&gt;1&lt;/<span class="div-red">div</span>&gt;
+    &lt;<span class="div-red">div</span> <span class="class-yelow">class="item"</span>&gt;2&lt;/<span class="div-red">div</span>&gt;
+    &lt;<span class="div-red">div</span> <span class="class-yelow">class="item"</span>&gt;3&lt;/<span class="div-red">div</span>&gt;
+    &lt;<span class="div-red">div</span> <span class="class-yelow">class="item"</span>&gt;4&lt;/<span class="div-red">div</span>&gt;
+&lt;/<span class="div-red">div</span>&gt;</pre>
+<span class="lang">CSS</span>
+<span class="class-yelow"></span>
+                    <pre>
+<span class="class-yelow">.d-flex</span>{
+    display: <span class="class-yelow">flex;</span>
+    width: <span class="class-yelow">100%;</span>
+    min-height: <span class="class-yelow">200px;</span>
+}
+<span class="class-yelow">.item</span>{
+    width: <span class="class-yelow">100px;</span>
+    height: <span class="class-yelow">100px;</span>
+    border: <span class="class-yelow">1px solid #000;</span>
+}</pre>
+                </code>
+
+                <div class="d-flex">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+
+                <P>Отлично. Наши блоки выстроились в горизонтальную линию.</P>
+                <h2>justify-content: center</h2>
+                <p>Таким свойством мы можем добиться выравнивания по центру горизонтальной оси.</p>
+                  <code>
+                    <pre>
+<span class="class-yelow">.d-flex</span>{
+    justify-content: <span class="class-yelow">center</span>;
+}</pre>
+                  </code>
+                  
+                  <div class="d-flex __centr">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+
+                <h2>justify-content: flex-start</h2>
+                <p>Таким свойством мы можем добиться начального положения блоков.</p>
+                <code>
+                    <pre>
+<span class="class-yelow">.d-flex</span>{
+    justify-content: <span class="class-yelow">flex-start</span>;
+}</pre>
+                  </code>
+                <div class="d-flex __start">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+                <h2>justify-content: flex-end</h2>
+                <p>Таким свойством мы можем добиться что наши блоки будут в конце родительского блока.</p>
+                <code>
+                    <pre>
+<span class="class-yelow">.d-flex</span>{
+    justify-content: <span class="class-yelow">flex-end</span>;
+}</pre>
+                  </code>
+                <div class="d-flex __end">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+
+                <h2>justify-content: space-around</h2>
+                <p>Таким свойством мы можем добиться что наши блоки будут в конце родительского блока.</p>
+                <code>
+                    <pre>
+<span class="class-yelow">.d-flex</span>{
+    justify-content: <span class="class-yelow">space-around</span>;
+}</pre>
+                  </code>
+                <div class="d-flex __sa">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+
+                <h2>justify-content: space-evenly</h2>
+                <p>Таким свойством мы можем добиться что наши блоки будут в конце родительского блока.</p>
+                <code>
+                    <pre>
+<span class="class-yelow">.d-flex</span>{
+    justify-content: <span class="class-yelow">space-evenly</span>;
+}</pre>
+                  </code>
+                <div class="d-flex __se">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+                
+                <h2>justify-content: space-between</h2>
+                <p>Таким свойством мы можем добиться что наши блоки будут в конце родительского блока.</p>
+                <code>
+                    <pre>
+<span class="class-yelow">.d-flex</span>{
+    justify-content: <span class="class-yelow">space-between</span>;
+}</pre>
+                  </code>
+                <div class="d-flex __sb">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+
+                <h2>align-items: center + justify-content: center</h2>
+                <p>Таким свойством мы можем добиться что наши блоки будут в конце родительского блока.</p>
+                <code>
+                    <pre>
+<span class="class-yelow">.d-flex</span>{
+    justify-content: <span class="class-yelow">center</span>;
+    align-items: <span class="class-yelow">center</span>;
+}</pre>
+                  </code>
+                <div class="d-flex __centr __ai">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+
+                <h2>align-items: center + justify-content: space-around</h2>
+                <p>Таким свойством мы можем добиться что наши блоки будут в конце родительского блока.</p>
+                <code>
+                    <pre>
+<span class="class-yelow">.d-flex</span>{
+    justify-content: <span class="class-yelow">space-around</span>;
+    align-items: <span class="class-yelow">center</span>;
+}</pre>
+                  </code>
+                <div class="d-flex __centr __ai">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+
+                <h2>align-items: flex-start + justify-content: center</h2>
+                <p>Таким свойством мы можем добиться что наши блоки будут в конце родительского блока.</p>
+                <code>
+                    <pre>
+<span class="class-yelow">.d-flex</span>{
+    justify-content: <span class="class-yelow">center</span>;
+    align-items: <span class="class-yelow">flex-start</span>;
+}</pre>
+                  </code>
+                <div class="d-flex __centr __ais">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+
+                <h2>align-items: flex-end + justify-content: center</h2>
+                <p>Таким свойством мы можем добиться что наши блоки будут в конце родительского блока.</p>
+                <code>
+                    <pre>
+<span class="class-yelow">.d-flex</span>{
+    justify-content: <span class="class-yelow">center</span>;
+    align-items: <span class="class-yelow">flex-end</span>;
+}</pre>
+                  </code>
+                <div class="d-flex __centr __aie">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+
+               
+
+            </div>
+          </article>
+          <!-- <aside>
+            <div class="reclama"></div>
+          </aside> -->
+      </main>
+  <!-- подключение js после загрузки страницы-->
+  <!-- <script defer src="js/js.js"></script> -->
+  <!-- Скрипт будет выполнен асинхронно с HTML страницей -->
+  <!-- <script async src="js.js"></script> -->
+
+   <!-- Yandex.Metrika counter -->
+   <script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+    ym(85571128, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true,
+         webvisor:true
+    });
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/85571128" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+  </body>
+</html>
