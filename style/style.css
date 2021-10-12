@@ -226,7 +226,7 @@ h1 {
           justify-content: space-between;
   /* border: 1px solid; */
   padding: 0 0 20px 0;
-  gap: 0.6em;
+  gap: 1em;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.486), 0 0 8px rgba(0, 0, 0, 0.267);
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.486), 0 0 8px rgba(0, 0, 0, 0.267);
   border-radius: 20px;
