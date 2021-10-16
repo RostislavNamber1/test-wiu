@@ -81,5 +81,40 @@
   <priority>0.8</priority>
 </url>
 <!-- Первая статья -->
+
 <!-- ********************************************************************************************************* -->
+
+<!-- 2 статья -->
+<url>
+  <loc>https://midlcode.com/ru/article/display-flex.html</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://midlcode.com/ru/article/display-flex.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://midlcode.com/article/display-flex.html"/>
+  <lastmod>2021-10-16T11:00:00+03:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<!-- 2 статья -->
+
+<!-- 2 статья -->
+<url>
+  <loc>https://midlcode.com/article/display-flex.html</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://midlcode.com/ru/article/display-flex.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://midlcode.com/article/display-flex.html"/>
+  <lastmod>2021-10-16T11:00:00+03:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<!-- 2 статья -->
 </urlset>
