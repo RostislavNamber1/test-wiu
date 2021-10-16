@@ -11,18 +11,19 @@
   <!-- описание сайта -->
   <meta name="description" content="Есть много различных способов это сделать круг на CSS! Но я покажу тебе самый простой и самое главное легкий способ.">
   <!-- ключи для страницы -->
-  <meta name="keywords" content="css, круг, border-radius, midlcode">
+  <meta name="keywords" content="midlcode, мидлкод, дисплей флекс, дисплей флекс css, display flex, display flex css, display flex по центру, display flex шпаргалка">
   <!-- для индексации поскового робота -->
   <meta name="robots" content="index, follow">
   <!-- иконки для сайта -->
 
 <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" >
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 <link rel="manifest" href="/favicon/site.webmanifest">
 <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+<link rel="icon" href="https://midlcode.com/favicon/favicon-32x32.png" type="image/png">
   <!-- подключение стилей -->
   <link rel="stylesheet" href="/style/style.css">
   <!-- <link rel="stylesheet" href="/style/cart.css"> -->
@@ -47,7 +48,7 @@ Midl[code]        </a></div>
                 <li><a href="" target="_blank">Главная</a></li>
             </ul> -->
             <a href="/article/display-flex.html">
-              <img class="yzik" src="/img/eng.png" alt="" width="32px" height="32px">
+              <img class="yzik" src="/img/eng.png" alt="" width="32" height="32">
           </a>
         </nav>
     </header>
@@ -70,12 +71,12 @@ Midl[code]        </a></div>
                   <!-- <source srcset="/img/" type="image/avif">
                   <source srcset="/img/" type="image/webp"> -->
                     <img src="/img/dfw1920.jpg" alt="круг и человек" loading="lazy" decoding="async"
-                     width="1000px" height="350px">
+                     width="1000" height="350">
                 </picture>
             </div>
             <div class="article-p">
                 <h2>display: flex</h2>
-                <p>Для того чтобы увидеть эффект гибких блоков нам потребуется следующая конструкция</p>
+                <p>Для того чтобы увидеть эффект гибких блоков, нам потребуется следующая конструкция.</p>
                 
                 <code>
                   <span class="lang">html</span>
@@ -109,6 +110,22 @@ Midl[code]        </a></div>
                 </div>
 
                 <P>Отлично. Наши блоки выстроились в горизонтальную линию.</P>
+
+                <h2>justify-content: flex-start (Значение по умолчанию)</h2>
+                <p>Таким свойством мы можем добиться начального положения блоков. Это значение устанавливается браузером по умолчанию.</p>
+                <code>
+                    <pre>
+<span class="class-yelow">.d-flex</span>{
+    justify-content: <span class="class-yelow">flex-start</span>;
+}</pre>
+                  </code>
+                <div class="d-flex __start">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+
                 <h2>justify-content: center</h2>
                 <p>Таким свойством мы можем добиться выравнивания по центру горизонтальной оси.</p>
                   <code>
@@ -125,20 +142,7 @@ Midl[code]        </a></div>
                     <div class="item"></div>
                 </div>
 
-                <h2>justify-content: flex-start</h2>
-                <p>Таким свойством мы можем добиться начального положения блоков.</p>
-                <code>
-                    <pre>
-<span class="class-yelow">.d-flex</span>{
-    justify-content: <span class="class-yelow">flex-start</span>;
-}</pre>
-                  </code>
-                <div class="d-flex __start">
-                    <div class="item"></div>
-                    <div class="item"></div>
-                    <div class="item"></div>
-                    <div class="item"></div>
-                </div>
+                
                 <h2>justify-content: flex-end</h2>
                 <p>Таким свойством мы можем добиться что наши блоки будут в конце родительского блока.</p>
                 <code>
@@ -155,7 +159,7 @@ Midl[code]        </a></div>
                 </div>
 
                 <h2>justify-content: space-around</h2>
-                <p>Таким свойством мы можем добиться что наши блоки будут в конце родительского блока.</p>
+                <p>Это свойство нам позволяет выронить  наши блоки на равным расстояние друг от друга.</p>
                 <code>
                     <pre>
 <span class="class-yelow">.d-flex</span>{
@@ -170,7 +174,7 @@ Midl[code]        </a></div>
                 </div>
 
                 <h2>justify-content: space-evenly</h2>
-                <p>Таким свойством мы можем добиться что наши блоки будут в конце родительского блока.</p>
+                <p>Свойство space-evenly нам позволяет расположить наши блоки на одинаковом расстояние друг от друга. А по бокам экрана расстояние увеличивается.</p>
                 <code>
                     <pre>
 <span class="class-yelow">.d-flex</span>{
@@ -185,7 +189,7 @@ Midl[code]        </a></div>
                 </div>
                 
                 <h2>justify-content: space-between</h2>
-                <p>Таким свойством мы можем добиться что наши блоки будут в конце родительского блока.</p>
+                <p>Свойство space-between нам позволяет стирать границы и располагает блоки по всей ширине родительского блока с расстоянием между другими блоками.</p>
                 <code>
                     <pre>
 <span class="class-yelow">.d-flex</span>{
@@ -200,7 +204,7 @@ Midl[code]        </a></div>
                 </div>
 
                 <h2>align-items: center + justify-content: center</h2>
-                <p>Таким свойством мы можем добиться что наши блоки будут в конце родительского блока.</p>
+                <p>Два свойства display flex align-items и justify-content в тандем и очень хорошо справляются в различными задачами. Если в каждое свойство записать center, то блоки будут находиться в центе родительского блока.</p>
                 <code>
                     <pre>
 <span class="class-yelow">.d-flex</span>{
@@ -216,28 +220,28 @@ Midl[code]        </a></div>
                 </div>
 
                 <h2>align-items: center + justify-content: space-around</h2>
-                <p>Таким свойством мы можем добиться что наши блоки будут в конце родительского блока.</p>
+                <p>Зная что делает свойство justify-content: space-around мы добавим align-items: center. И в итоге мы можем получить интересное расположение наших блоков.</p>
                 <code>
                     <pre>
 <span class="class-yelow">.d-flex</span>{
-    justify-content: <span class="class-yelow">space-around</span>;
     align-items: <span class="class-yelow">center</span>;
+    justify-content: <span class="class-yelow">space-around</span>;
 }</pre>
                   </code>
-                <div class="d-flex __centr __ai">
+                <div class="d-flex __sa __ai">
                     <div class="item"></div>
                     <div class="item"></div>
                     <div class="item"></div>
                     <div class="item"></div>
                 </div>
 
-                <h2>align-items: flex-start + justify-content: center</h2>
-                <p>Таким свойством мы можем добиться что наши блоки будут в конце родительского блока.</p>
+                <h2>align-items: flex-start (Значение по умолчанию) + justify-content: center</h2>
+                <p>Значением по умолчанию align-items считается flex-start. </p>
                 <code>
                     <pre>
 <span class="class-yelow">.d-flex</span>{
-    justify-content: <span class="class-yelow">center</span>;
     align-items: <span class="class-yelow">flex-start</span>;
+    justify-content: <span class="class-yelow">center</span>;
 }</pre>
                   </code>
                 <div class="d-flex __centr __ais">
@@ -248,7 +252,7 @@ Midl[code]        </a></div>
                 </div>
 
                 <h2>align-items: flex-end + justify-content: center</h2>
-                <p>Таким свойством мы можем добиться что наши блоки будут в конце родительского блока.</p>
+                <p>Эти значения вам дадут что наши блоки будут находиться в нижней части блока.</p>
                 <code>
                     <pre>
 <span class="class-yelow">.d-flex</span>{

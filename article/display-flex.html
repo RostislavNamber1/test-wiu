@@ -11,25 +11,26 @@
   <!-- описание сайта -->
   <meta name="description" content="There are many ways to do this circle on CSS! But I'll show you the simplest and most importantly the easiest way.">
   <!-- ключи для страницы -->
-  <meta name="keywords" content="css, flex, display: flex, display, midlcode">
+  <meta name="keywords" content="css, flex, display flex, midlcode, display flex css, display flex space between, display flex html, display flex justify-content, display flex align items, display flex align center, display flex align, display flex center">
   <!-- для индексации поскового робота -->
   <meta name="robots" content="index, follow">
   <!-- иконки для сайта -->
-
+  
 <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" >
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 <link rel="manifest" href="/favicon/site.webmanifest">
 <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+<link rel="icon" href="https://midlcode.com/favicon/favicon-32x32.png" type="image/png">
   <!-- подключение стилей -->
   <link rel="stylesheet" href="/style/style.css">
 
   <!-- альтернативные ссылки для языковых клонов страниц -->
-  <link rel="alternate" hreflang="x-default" href="https://midlcode.com/article/making-a-circle-in-30-seconds-on-pure-css.html" /> 
-  <link rel="alternate" hreflang="ru" href="https://midlcode.com/ru/article/making-a-circle-in-30-seconds-on-pure-css.html" /> 
-  <link rel="alternate" hreflang="en" href="https://midlcode.com/article/making-a-circle-in-30-seconds-on-pure-css.html" /> 
+  <link rel="alternate" hreflang="x-default" href="https://midlcode.com/article/display-flex.html" /> 
+  <link rel="alternate" hreflang="ru" href="https://midlcode.com/ru/article/display-flex.html" /> 
+  <link rel="alternate" hreflang="en" href="https://midlcode.com/article/display-flex.html" /> 
   <!-- заголовком страницы сайта -->
   <title>display flex complete guide to the use and configuration of blocks - Midlcode.com</title>
 
@@ -46,7 +47,7 @@ Midl[code]        </a></div>
                   <li><a href="" target="_blank">Главная</a></li>
               </ul> -->
               <a href="/ru/article/display-flex.html">
-                <img class="yzik" src="/img/ru.png" alt="" width="32px" height="32px">
+                <img class="yzik" src="/img/ru.png" alt="" width="32" height="32">
             </a>
           </nav>
       </header>
@@ -58,45 +59,216 @@ Midl[code]        </a></div>
 <!-- *********************************************************************** -->
       <main class="stat">
           
-          <article>
-            <h1>Complete guide to using display-flex <br>(examples)</h1> 
-            <div class="time-article">
-                <time datetime="2021-09-21T11:15:00+03:00">The article has been published 30.09.2021 11:15</time>
-            </div>    
-            <div class="img__article">
+        <article>
+          <h1>Complete Usage Guide display-flex <br>(With examples)</h1> 
+          <div class="time-article">
+              <time datetime="2021-10-08T11:15:00+03:00">The article has been published 8.10.2021 11:15</time>
+          </div>    
+          <div class="img__article">
               <picture>
-                <!-- <source srcset="/img/circle.avif" type="image/avif">
-                <source srcset="/img/circle.webp" type="image/webp"> -->
-                <img src="/img/dfw1920.jpg" alt="circle and men" loading="lazy" decoding="async"
-                 width="1000px" height="350px">
-            </picture>
-            </div>
-            <div class="article-p">
-              <p>Hello!</p>
-              <p>Surely you didn't just happen to be here? And I came to find out how to create a circle correctly in CSS?</p>
-              <P>There are many ways to do this! But I'll show you the simplest and most importantly the easiest way.</P>
-              <P>1. Let's create a block with a height and width of 200 pixels. And we'll give it a color.</P>
+                <!-- <source srcset="/img/" type="image/avif">
+                <source srcset="/img/" type="image/webp"> -->
+                  <img src="/img/dfw1920.jpg" alt="круг и человек" loading="lazy" decoding="async"
+                   width="1000" height="350">
+              </picture>
+          </div>
+          <div class="article-p">
+              <h2>display: flex</h2>
+              <p>In order to see the effect of flexible blocks, we need the following construction.</p>
+              
               <code>
                 <span class="lang">html</span>
-                <span>&lt;<span class="div-red">div</span> <span class="class-yelow">class="circle"</span>&gt;&lt;/<span class="div-red">div</span>&gt;</span>
-                <span class="lang">CSS</span>
-                <span><span class="class-yelow">.circle</span> {</span>
-                <span>width: <span class="class-yelow">200</span><span class="div-red"> px</span>; <br>
-                  height: <span class="class-yelow">200</span><span class="div-red"> px</span>; <br>
-                  background-color: rgb(<span class="class-yelow">16, 118, 207</span>);<br>}</span>
+                <pre>
+&lt;<span class="div-red">div</span> <span class="class-yelow">class="d-flex"</span>&gt;
+  &lt;<span class="div-red">div</span> <span class="class-yelow">class="item"</span>&gt;1&lt;/<span class="div-red">div</span>&gt;
+  &lt;<span class="div-red">div</span> <span class="class-yelow">class="item"</span>&gt;2&lt;/<span class="div-red">div</span>&gt;
+  &lt;<span class="div-red">div</span> <span class="class-yelow">class="item"</span>&gt;3&lt;/<span class="div-red">div</span>&gt;
+  &lt;<span class="div-red">div</span> <span class="class-yelow">class="item"</span>&gt;4&lt;/<span class="div-red">div</span>&gt;
+&lt;/<span class="div-red">div</span>&gt;</pre>
+<span class="lang">CSS</span>
+<span class="class-yelow"></span>
+                  <pre>
+<span class="class-yelow">.d-flex</span>{
+  display: <span class="class-yelow">flex;</span>
+  width: <span class="class-yelow">100%;</span>
+  min-height: <span class="class-yelow">200px;</span>
+}
+<span class="class-yelow">.item</span>{
+  width: <span class="class-yelow">100px;</span>
+  height: <span class="class-yelow">100px;</span>
+  border: <span class="class-yelow">1px solid #000;</span>
+}</pre>
               </code>
-              <div class="circle200px"></div>
-              <P>2. Great, but our block is shaped like a square, not a circle. To do this, in CSS styles, you need to register border-radius with an internal value of 50%.</P>
-                <code>
-                  <span class="lang">CSS</span>
-                  <span><span class="class-yelow">.circle</span> {</span>
-                    <span>border-radius: <span class="class-yelow">50%</span>;<br>}</span>
+
+              <div class="d-flex">
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+              </div>
+
+              <P>Excellent. Our blocks are lined up in a horizontal line.</P>
+
+              <h2>justify-content: flex-start (Default value)</h2>
+              <p>With this property, we can achieve the initial position of the blocks. This value is set by the browser by default.</p>
+              <code>
+                  <pre>
+<span class="class-yelow">.d-flex</span>{
+  justify-content: <span class="class-yelow">flex-start</span>;
+}</pre>
                 </code>
-                <div class="circle200px __br50"></div>
-              <P>Great, we got a circle on pure CSS.  And for this we needed a bit of code.</P>
-              <P>Now you know more!</P>
+              <div class="d-flex __start">
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+              </div>
+
+              <h2>justify-content: center</h2>
+              <p>With this property, we can achieve alignment in the center of the horizontal axis.</p>
+                <code>
+                  <pre>
+<span class="class-yelow">.d-flex</span>{
+  justify-content: <span class="class-yelow">center</span>;
+}</pre>
+                </code>
+                
+                <div class="d-flex __centr">
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+              </div>
+
+              
+              <h2>justify-content: flex-end</h2>
+              <p>By this property we can achieve that our blocks will be at the end of the parent block.</p>
+              <code>
+                  <pre>
+<span class="class-yelow">.d-flex</span>{
+  justify-content: <span class="class-yelow">flex-end</span>;
+}</pre>
+                </code>
+              <div class="d-flex __end">
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+              </div>
+
+              <h2>justify-content: space-around</h2>
+              <p>This property allows us to align our blocks at an equal distance from each other.</p>
+              <code>
+                  <pre>
+<span class="class-yelow">.d-flex</span>{
+  justify-content: <span class="class-yelow">space-around</span>;
+}</pre>
+                </code>
+              <div class="d-flex __sa">
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+              </div>
+
+              <h2>justify-content: space-evenly</h2>
+              <p>The space-even property allows us to place our blocks at the same distance from each other. And on the sides of the screen, the distance increases.</p>
+              <code>
+                  <pre>
+<span class="class-yelow">.d-flex</span>{
+  justify-content: <span class="class-yelow">space-evenly</span>;
+}</pre>
+                </code>
+              <div class="d-flex __se">
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+              </div>
+              
+              <h2>justify-content: space-between</h2>
+              <p>The space-between property allows us to erase borders and positions blocks across the entire width of the parent block with the distance between other blocks.</p>
+              <code>
+                  <pre>
+<span class="class-yelow">.d-flex</span>{
+  justify-content: <span class="class-yelow">space-between</span>;
+}</pre>
+                </code>
+              <div class="d-flex __sb">
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+              </div>
+
+              <h2>align-items: center + justify-content: center</h2>
+              <p>The two display flex properties align-items and justify-content in tandem and do a very good job in various tasks. If you write center to each property, then the blocks will be in the center of the parent block.</p>
+              <code>
+                  <pre>
+<span class="class-yelow">.d-flex</span>{
+  justify-content: <span class="class-yelow">center</span>;
+  align-items: <span class="class-yelow">center</span>;
+}</pre>
+                </code>
+              <div class="d-flex __centr __ai">
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+              </div>
+
+              <h2>align-items: center + justify-content: space-around</h2>
+              <p>Knowing what the justify-content: space-around property does, we will add align-items: center. And as a result, we can get an interesting arrangement of our blocks.</p>
+              <code>
+                  <pre>
+<span class="class-yelow">.d-flex</span>{
+  align-items: <span class="class-yelow">center</span>;
+  justify-content: <span class="class-yelow">space-around</span>;
+}</pre>
+                </code>
+              <div class="d-flex __sa __ai">
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+              </div>
+
+              <h2>align-items: flex-start (Default value) + justify-content: center</h2>
+              <p>Default value align-items be flex-start. </p>
+              <code>
+                  <pre>
+<span class="class-yelow">.d-flex</span>{
+  align-items: <span class="class-yelow">flex-start</span>;
+  justify-content: <span class="class-yelow">center</span>;
+}</pre>
+                </code>
+              <div class="d-flex __centr __ais">
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+              </div>
+
+              <h2>align-items: flex-end + justify-content: center</h2>
+              <p>These values will give you that our blocks will be at the bottom of the block.</p>
+              <code>
+                  <pre>
+<span class="class-yelow">.d-flex</span>{
+  justify-content: <span class="class-yelow">center</span>;
+  align-items: <span class="class-yelow">flex-end</span>;
+}</pre>
+                </code>
+              <div class="d-flex __centr __aie">
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+                  <div class="item"></div>
+              </div>
+
+             
+
           </div>
-          </article>
+        </article>
           <!-- <aside>
             <div class="reclama"></div>
           </aside> -->
