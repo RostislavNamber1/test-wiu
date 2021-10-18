@@ -25,17 +25,17 @@ body {
 }
 
 @media (prefers-color-scheme: light) {
-  html {
-    background: white;
-    color: black;
-  }
-
-  .logo a {
-    color: #000;
+  html, .logo a {
+    background: #edf0ff;
+    color: #2b2b2b;
   }
 
   code pre {
     color: #fff;
+  }
+
+  footer {
+    background-color: #f7f7f7;
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -51,6 +51,10 @@ body {
 
   .logo a {
     color: #fff;
+  }
+
+  footer {
+    background-color: #3a3a3a;
   }
 }
 img {
@@ -121,7 +125,7 @@ header nav ul li a:hover {
 .logo a {
   font-size: clamp(1.5rem, 8vw - 2rem, 3rem);
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 800;
+  font-weight: 500;
   -webkit-text-decoration: wavy;
           text-decoration: wavy;
 }
@@ -129,6 +133,11 @@ header nav ul li a:hover {
 .yzik {
   width: 32px;
   height: 32px;
+}
+
+.logo2 {
+  font-weight: 700;
+  color: #879ff7;
 }
 
 /* Безопасные шрифты
@@ -387,6 +396,20 @@ article h1 {
   color: gray;
 }
 
+.social-hare {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem;
+}
+
 .circle200px {
   width: 200px;
   height: 200px;
@@ -421,7 +444,7 @@ article h1 {
 .__end {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: end;
+          justify-content: flex-end;
 }
 
 .__sa {
@@ -470,4 +493,40 @@ article h1 {
     width: 50px;
     height: 50px;
   }
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2rem;
+}
+
+.social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.social ul li {
+  list-style: none;
+  width: 40px;
+  height: 40px;
+}
+.social ul li a {
+  color: aliceblue;
+  text-decoration: none;
 }

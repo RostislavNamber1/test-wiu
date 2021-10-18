@@ -31,17 +31,17 @@
   <!-- заголовком страницы сайта -->
 
   <!-- ******************************* -->
-  <meta property="og:title" content="Midlcode.com"/>
-  <meta property="og:description" content="Frontend and Web Developers Guide"/>
+  <meta property="og:title" content="Frontend and Web Developers Guide"/>
+  <!-- <meta property="og:description" content=""/> -->
   <meta property="og:image" content="https://midlcode.com/img/main-avif.avif"/>
   <meta property="og:image" content="https://midlcode.com/img/main-wevp.webp"/>
   <meta property="og:image" content="https://midlcode.com/img/main.jpg"/>
   <meta property="og:type" content="profile"/>
   <meta property="og:url" content= "https://midlcode.com" />
 
-  <meta name="twitter:card" content="summary"/>
-  <meta name="twitter:title" content="Midlcode.com" />
-  <meta name="twitter:description" content="Frontend and Web Developers Guide" /> 
+
+  <meta name="twitter:title" content="Frontend and Web Developers Guide" />
+  <!-- <meta name="twitter:description" content="" />  -->
   <meta name="twitter:image" content="https://midlcode.com/img/main-avif.avif" />
   <meta name="twitter:image" content="https://midlcode.com/img/main-wevp.webp" />
   <meta name="twitter:image" content="https://midlcode.com/img/main.jpg" />
@@ -56,7 +56,8 @@
 
 <header>
     <div class="logo"> <a href="../">
-Midl[code]    </a></div>
+        Midl[<span class="logo2">code</span>]
+    </a></div>
     <nav>
         <!-- <ul>
             <li><a href="" target="_blank">Главная</a></li>
@@ -96,9 +97,9 @@ Midl[code]    </a></div>
 <div class="cart">
     <div class="cart__img">
         <picture>
-            <!-- <source srcset="/img/circle.avif" type="image/avif">
-            <source srcset="/img/circle.webp" type="image/webp"> -->
-            <img src="/img/display-flex-w640.jpg" alt="circle and men" loading="lazy" decoding="async"
+            <source srcset="/img/flex.avif" type="image/avif">
+            <source srcset="/img/flex.webp" type="image/webp">
+            <img src="/img/flex.jpg" alt="display flex" loading="lazy" decoding="async"
              width="400" height="350">
         </picture>
     </div>
@@ -134,7 +135,20 @@ Midl[code]    </a></div>
 </div>
 <!-- карточка -->
       </main>
-
+      <!-- ********************************************************************************** -->
+      <!-- подвал сайта -->
+      
+<footer>
+    <div class="social">
+        <ul>
+            <p>We are in social networks:</p>
+            <li><a href="https://vk.com/midlcode" target="_blank"><img src="/img/social/vk_icon.svg" alt="vk_icon" width="40" height="40"></a></li>
+            
+        </ul>
+    </div>
+</footer>
+        <!-- ********************************************************************************** -->
+      
   <!-- подключение js после загрузки страницы-->
   <!-- <script defer src="js/js.js"></script> -->
   <!-- Скрипт будет выполнен асинхронно с HTML страницей -->
@@ -154,6 +168,6 @@ Midl[code]    </a></div>
     });
  </script>
  <noscript><div><img src="https://mc.yandex.ru/watch/85571128" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
- <!-- /Yandex.Metrika counter -->
+ <!-- /Yandex.Metrika counter -->  
   </body>
 </html>
