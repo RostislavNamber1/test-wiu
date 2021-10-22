@@ -14,6 +14,8 @@
   <meta name="keywords" content="css, круг, border-radius, midlcode, html круг css, как сделать круг в css, border круг css, css круг, как сделать круг в html css, круг с помощью css">
   <!-- для индексации поскового робота -->
   <meta name="robots" content="index, follow">
+    <!-- кононическая ссылка -->
+    <link rel="canonical" href="https://midlcode.com/ru/article/making-a-circle-in-30-seconds-on-pure-css.htm" />
   <!-- иконки для сайта -->
 
 <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -88,12 +90,19 @@
                 <time datetime="2021-09-30T11:15:00+03:00">Статья опубликована 30.09.2021 11:15</time>
             </div>    
             <div class="img__article">
-                <picture>
-                  <source srcset="/img/circle.avif" type="image/avif">
-                  <source srcset="/img/circle.webp" type="image/webp">
-                    <img src="/img/circle.jpg" alt="круг и человек" loading="lazy" decoding="async"
-                     width="1000" height="350">
-                </picture>
+              <picture>
+                <source srcset="/img/circle-700-400.avif 800w,
+                                /img/circle.avif 1000w"
+                                type="image/avif">
+                <source srcset="
+                                /img/circle-700-400.avif 800w
+                                /img/circle.webp 1000w"
+                                 type="image/webp">
+                <img srcset="/img/circle-700-400.jpg 800w"
+                        src="/img/circle.jpg" alt="circle and men"
+                              loading="lazy" decoding="async"
+                              width="1000" height="350">
+            </picture>
             </div>
             <div class="article-p">
                 <p>Привет!</p>

@@ -14,6 +14,8 @@
   <meta name="keywords" content="midlcode, мидлкод, web, frontend, фронтенд, веб, html5, css, scss, sass, javascript, путеводитель, фронтенд разработка">
   <!-- для индексации поскового робота -->
   <meta name="robots" content="index, follow">
+    <!-- кононическая ссылка -->
+    <link rel="canonical" href="https://midlcode.com/" />
   <!-- иконки для сайта -->
 
 <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -67,7 +69,9 @@
           <div class="bagran">
               <div class="blog__text">
                   <h1>Путеводитель Фронтенд <br> и Веб Разработчика</h1>
-                  <p>Html5 / Css3 / SCSS / SASS / JavaScript/ <a class="razdel" href="/ru/maket/">Макеты</a></p>
+                  <p>Html5 / Css3 / SCSS / SASS / JavaScript
+                     <!-- <a class="razdel" href="/ru/maket/">Макеты</a> -->
+                    </p>
               </div>
           </div>
       </section>
@@ -80,11 +84,14 @@
 <div class="cart">
     <div class="cart__img">
         <picture>
-            <source srcset="/img/flex.avif" type="image/avif">
-            <source srcset="/img/flex.webp" type="image/webp">
-            <img src="/img/flex.jpg" alt="Дисплей флекс" loading="lazy" decoding="async"
-             width="400" height="350">
-        </picture>
+            <source srcset="/img/flex450.avif 800w,
+                            /img/flex.avif" type="image/avif">
+            <source srcset="/img/flex450.webp 800w,
+                            /img/flex.webp" type="image/webp">
+              <img srcset="/img/flex450.jpg 800w" 
+                      src="/img/flex.jpg" alt="круг и человек" loading="lazy" decoding="async"
+               width="1000" height="350">
+          </picture>
     </div>
     <div class="cart__title">
         <h3>Полное руководство по использованию display-flex (примеры)</h3>
@@ -101,10 +108,16 @@
 <div class="cart">
     <div class="cart__img">
         <picture>
-            <source srcset="/img/circle.avif" type="image/avif">
-            <source srcset="/img/circle.webp" type="image/webp">
-            <img src="/img/circle.jpg" alt="круг и человек" loading="lazy" decoding="async"
-             width="400" height="350">
+            <source srcset="/img/circle.avif 1000w,
+                           /img/circle-700-400.avif 800w"
+                            type="image/avif">
+            <source srcset="/img/circle.webp 1000w,
+                            /img/circle-700-400.avif 800w"
+                             type="image/webp">
+            <img srcset="/img/circle-700-400.jpg 800w"
+                    src="/img/circle.jpg" alt="circle and men"
+                          loading="lazy" decoding="async"
+                          width="1000" height="350">
         </picture>
     </div>
     <div class="cart__title">

@@ -15,6 +15,8 @@
   <!-- для индексации поскового робота -->
   <meta name="robots" content="index, follow">
   <!-- иконки для сайта -->
+  <!-- кононическая ссылка -->
+  <link rel="canonical" href="https://midlcode.com/ru/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" >
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
@@ -97,11 +99,14 @@
 <div class="cart">
     <div class="cart__img">
         <picture>
-            <source srcset="/img/flex.avif" type="image/avif">
-            <source srcset="/img/flex.webp" type="image/webp">
-            <img src="/img/flex.jpg" alt="display flex" loading="lazy" decoding="async"
-             width="400" height="350">
-        </picture>
+            <source srcset="/img/flex450.avif 800w,
+                            /img/flex.avif" type="image/avif">
+            <source srcset="/img/flex450.webp 800w,
+                            /img/flex.webp" type="image/webp">
+              <img srcset="/img/flex450.jpg 800w" 
+                      src="/img/flex.jpg" alt="круг и человек" loading="lazy" decoding="async"
+               width="1000" height="350">
+          </picture>
     </div>
     <div class="cart__title">
         <h3>Complete guide to using display-flex (examples)</h3>
@@ -118,10 +123,16 @@
 <div class="cart">
     <div class="cart__img">
         <picture>
-            <source srcset="/img/circle.avif" type="image/avif">
-            <source srcset="/img/circle.webp" type="image/webp">
-            <img src="/img/circle.jpg" alt="circle and men" loading="lazy" decoding="async"
-             width="400" height="350">
+            <source srcset="/img/circle.avif 1000w,
+                           /img/circle-700-400.avif 800w"
+                            type="image/avif">
+            <source srcset="/img/circle.webp 1000w,
+                            /img/circle-700-400.avif 800w"
+                             type="image/webp">
+            <img srcset="/img/circle-700-400.jpg 800w"
+                    src="/img/circle.jpg" alt="circle and men"
+                          loading="lazy" decoding="async"
+                          width="1000" height="350">
         </picture>
     </div>
     <div class="cart__title">
