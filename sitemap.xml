@@ -18,28 +18,28 @@
    <xhtml:link
                rel="alternate"
                hreflang="ru"
-               href="https://midlcode.com/ru/index.html"/>
+               href="https://midlcode.com/ru/"/>
     <xhtml:link
                rel="alternate"
                hreflang="en"
-               href="https://midlcode.com/index.html"/>
-  <lastmod>2021-10-18T02:25:34+00:00</lastmod>
+               href="https://midlcode.com/"/>
+  <lastmod>2021-10-31T02:25:34+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 <!-- главная страница -->
 <!-- главная страница рузоны -->
 <url>
-  <loc>https://midlcode.com/ru/index.html</loc>
+  <loc>https://midlcode.com/ru/</loc>
   <xhtml:link
                rel="alternate"
                hreflang="ru"
-               href="https://midlcode.com/ru/index.html"/>
+               href="https://midlcode.com/ru/"/>
     <xhtml:link
                rel="alternate"
                hreflang="en"
-               href="https://midlcode.com/index.html"/>
-  <lastmod>2021-10-18T02:25:37+00:00</lastmod>
+               href="https://midlcode.com/"/>
+  <lastmod>2021-10-31T02:25:37+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
@@ -60,7 +60,7 @@
                rel="alternate"
                hreflang="en"
                href="https://midlcode.com/article/making-a-circle-in-30-seconds-on-pure-css.html"/>
-  <lastmod>2021-10-18T11:15:00+03:00</lastmod>
+  <lastmod>2021-10-31T11:15:00+03:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.8</priority>
 </url>
@@ -76,7 +76,7 @@
                rel="alternate"
                hreflang="en"
                href="https://midlcode.com/article/making-a-circle-in-30-seconds-on-pure-css.html"/>
-  <lastmod>2021-10-18T11:15:00+03:00</lastmod>
+  <lastmod>2021-10-31T11:15:00+03:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.8</priority>
 </url>
@@ -95,7 +95,7 @@
                rel="alternate"
                hreflang="en"
                href="https://midlcode.com/article/display-flex.html"/>
-  <lastmod>2021-10-18T11:00:00+03:00</lastmod>
+  <lastmod>2021-10-31T11:00:00+03:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.8</priority>
 </url>
@@ -112,9 +112,43 @@
                rel="alternate"
                hreflang="en"
                href="https://midlcode.com/article/display-flex.html"/>
-  <lastmod>2021-10-18T11:00:00+03:00</lastmod>
+  <lastmod>2021-10-31T11:00:00+03:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.8</priority>
 </url>
 <!-- 2 статья -->
+
+<!-- Раздел с макетами -->
+<url>
+  <loc>https://midlcode.com/maket/</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://midlcode.com/ru/maket/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://midlcode.com/maket/"/>
+  <lastmod>2021-10-25T11:00:00+03:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<!-- Раздел с макетами -->
+
+<!-- Раздел с макетами -->
+<url>
+  <loc>https://midlcode.com/ru/maket/</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://midlcode.com/maket/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://midlcode.com/ru/maket/"/>
+  <lastmod>2021-10-25T11:00:00+03:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<!-- Раздел с макетами -->
 </urlset>

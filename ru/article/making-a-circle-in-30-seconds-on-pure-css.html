@@ -15,7 +15,7 @@
   <!-- для индексации поскового робота -->
   <meta name="robots" content="index, follow">
     <!-- кононическая ссылка -->
-    <link rel="canonical" href="https://midlcode.com/ru/article/making-a-circle-in-30-seconds-on-pure-css.htm" />
+    <link rel="canonical" href="https://midlcode.com/ru/article/making-a-circle-in-30-seconds-on-pure-css.html" />
   <!-- иконки для сайта -->
 
 <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -91,17 +91,16 @@
             </div>    
             <div class="img__article">
               <picture>
-                <source srcset="/img/circle-700-400.avif 800w,
-                                /img/circle.avif 1000w"
-                                type="image/avif">
-                <source srcset="
-                                /img/circle-700-400.avif 800w
-                                /img/circle.webp 1000w"
-                                 type="image/webp">
+                <source srcset="/img/circle.avif 1000w" type="image/avif" sizes="1000px">
+                <source srcset="/img/circle-700-400.avif 800w" type="image/avif" sizes="800px">
+                
+                <source srcset="/img/circle.webp 1000w" type="image/webp" sizes="1000px">
+                <source srcset="/img/circle-700-400.webp 800w" type="image/webp" sizes="800px">
+                
                 <img srcset="/img/circle-700-400.jpg 800w"
                         src="/img/circle.jpg" alt="circle and men"
                               loading="lazy" decoding="async"
-                              width="1000" height="350">
+                              width="400" height="350" sizes="100vw">
             </picture>
             </div>
             <div class="article-p">
@@ -109,22 +108,25 @@
                 <p>Ты наверняка не просто тут оказался? И пришёл узнать как создать правильно круг на CSS?</p>
                 <P>Есть много различных способов это сделать! Но я покажу тебе самый простой и самое главное легкий способ.</P>
                 <P>1. Давай создадим блок высотой и шириной 200 пикселей. И зададим ему цвет например </P>
-                <code>
-                  <span class="lang">html</span>
-                  <span>&lt;<span class="div-red">div</span> <span class="class-yelow">class="circle"</span>&gt;&lt;/<span class="div-red">div</span>&gt;</span>
-                  <span class="lang">CSS</span>
-                  <span><span class="class-yelow">.circle</span> {</span>
-                  <span>width: <span class="class-yelow">200</span><span class="div-red"> px</span>; <br>
-                    height: <span class="class-yelow">200</span><span class="div-red"> px</span>; <br>
-                    background-color: rgb(<span class="class-yelow">16, 118, 207</span>);<br>}</span>
-                </code>
+<!-- ************************************** -->
+<pre><code><span class="lang">html</span>
+  &lt;div class="circle"&gt;&lt;/div&gt;
+  <span class="lang">CSS</span>
+.circle {
+  width: 200 px;
+  height: 200 px; 
+  background-color: rgb(16, 118, 207);
+}</code></pre>
+<!-- ************************************** -->
                 <div class="circle200px"></div>
                 <P>2. Отлично, но наш блок имеет формы квадрата, а не круга. Для этого в стилях CSS нужно прописать border-radius с внутренним значением  50%</P>
-                  <code>
-                    <span class="lang">CSS</span>
-                    <span><span class="class-yelow">.circle</span> {</span>
-                      <span>border-radius: <span class="class-yelow">50%</span>;<br>}</span>
-                  </code>
+                  <!-- ************************************** -->
+<pre><code>
+  <span class="lang">CSS</span>
+.circle{
+  border-radius: 50%;
+}</code></pre>
+<!-- ************************************** -->
                   <div class="circle200px __br50"></div>
                 <P>Отлично мы получили круг на чистом CSS. А для этого нам потребовалось немного кода.</P>
                 <P>Теперь ты знаешь больше!</P>
@@ -143,9 +145,9 @@
 
 <footer>
     <div class="social">
+        <p>Мы в социальных сетях:</p>
         <ul>
-            <p>Мы в социальных сетях:</p>
-            <li><a href="https://vk.com/midlcode" target="_blank"><img src="/img/social/vk_icon.svg" alt="vk_icon" width="40" height="40"></a></li>
+            <li><a href="https://vk.com/midlcode" target="_blank" rel="noopener"><img src="/img/social/vk_icon.svg" alt="vk_icon" width="40" height="40"></a></li>
             
         </ul>
     </div>
@@ -158,7 +160,7 @@
   <!-- <script async src="js.js"></script> -->
 
    <!-- Yandex.Metrika counter -->
-   <script async type="text/javascript" >
+   <script >
     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
     m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
     (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");

@@ -15,8 +15,6 @@
   <!-- для индексации поскового робота -->
   <meta name="robots" content="index, follow">
   <!-- иконки для сайта -->
-  <!-- кононическая ссылка -->
-  <link rel="canonical" href="https://midlcode.com/ru/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" >
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
@@ -27,9 +25,9 @@
 <link rel="icon" href="/favicon/faviconyandex.svg" type="image/x-icon" sizes="120x120">  <!-- подключение стилей -->
   <link rel="stylesheet" href="/style/style.css">
   <!-- альтернативные ссылки для языковых клонов страниц -->
-  <link rel="alternate" hreflang="x-default" href="https://midlcode.com" /> 
-  <link rel="alternate" hreflang="ru" href="https://midlcode.com/ru/index-ru.html" /> 
-  <link rel="alternate" hreflang="en" href="https://midlcode.com" /> 
+  <link rel="alternate" hreflang="ru" href="https://midlcode.com/ru/" /> 
+  <link rel="alternate" hreflang="en" href="https://midlcode.com/" /> 
+  <link rel="alternate" hreflang="x-default" href="https://midlcode.com/" /> 
   <!-- заголовком страницы сайта -->
 
   <!-- ******************************* -->
@@ -39,7 +37,7 @@
   <meta property="og:image" content="https://midlcode.com/img/main-wevp.webp"/>
   <meta property="og:image" content="https://midlcode.com/img/main.jpg"/>
   <meta property="og:type" content="profile"/>
-  <meta property="og:url" content= "https://midlcode.com" />
+  <meta property="og:url" content= "https://midlcode.com/" />
 
 
   <meta name="twitter:title" content="Frontend and Web Developers Guide" />
@@ -47,7 +45,7 @@
   <meta name="twitter:image" content="https://midlcode.com/img/main-avif.avif" />
   <meta name="twitter:image" content="https://midlcode.com/img/main-wevp.webp" />
   <meta name="twitter:image" content="https://midlcode.com/img/main.jpg" />
-  <meta name="twitter:site" content="https://midlcode.com" />
+  <meta name="twitter:site" content="https://midlcode.com/" />
 
 
   <!-- *************************** -->
@@ -76,12 +74,12 @@
       <!-- Секция с заголовком блога и картинкой -->
       <section class="blog-main__img">
           <div class="blok__img">
-              <picture>
+              <!-- <picture>
                 <source srcset="/img/main-avif.avif" type="image/avif">
                 <source srcset="/img/main-wevp.webp" type="image/webp">
                   <img src="/img/main.jpg" alt="main img midlcode" loading="lazy" decoding="async"
                    width="1000" height="500">
-              </picture>
+              </picture> -->
           </div>
           <div class="bagran">
               <div class="blog__text">
@@ -95,17 +93,48 @@
 
       <main class="main__carts">
 
+
+<!-- карточка -->
+<div class="cart">
+    <div class="cart__img ">
+        <picture>
+            <source srcset="/img/maket-main.avif 1000w" type="image/avif" sizes="1000px">
+            <source srcset="/img/maket-main-smal.avif 800w" type="image/avif" sizes="800px">
+
+            <source srcset="/img/maket-main.webp 1000w" type="image/webp" sizes="1000px">
+            <source srcset="/img/maket-main-smal.webp 800w" type="image/webp" sizes="800px">
+
+            <img srcset="/img/maket-main-smal.jpg 800w"
+                    src="/img/maket-main.jpg" alt="all maket figma"
+                          loading="lazy" decoding="async"
+                          width="400" height="350"
+                          sizes="100vw">
+        </picture>
+    </div>
+    <div class="cart__title">
+        <h3>Free layouts and templates for layout in figma format</h3>
+    </div>
+    <div class="cart__time">
+        <time datetime="2021-09-30T11:15:00+03:00">25.10.2021</time>
+        <div class="cart__more"><a target="_blank" href="/maket/">View all layouts</a></div>
+    </div>
+    
+</div>
+<!-- карточка -->
+
 <!-- карточка -->
 <div class="cart">
     <div class="cart__img">
         <picture>
-            <source srcset="/img/flex450.avif 800w,
-                            /img/flex.avif" type="image/avif">
-            <source srcset="/img/flex450.webp 800w,
-                            /img/flex.webp" type="image/webp">
+            <source srcset="/img/flex.avif 1000w" type="image/avif" sizes="1000px">
+            <source srcset="/img/flex450.avif 800w" type="image/avif" sizes="800px">
+
+            <source srcset="/img/flex.webp 1000w" type="image/webp" sizes="1000px">
+            <source srcset="/img/flex450.webp 800w" type="image/webp" sizes="800px">
+            
               <img srcset="/img/flex450.jpg 800w" 
-                      src="/img/flex.jpg" alt="круг и человек" loading="lazy" decoding="async"
-               width="1000" height="350">
+                      src="/img/flex.jpg" alt="cirkle and men" loading="lazy" decoding="async"
+               width="400" height="350" sizes="100vw">
           </picture>
     </div>
     <div class="cart__title">
@@ -123,16 +152,16 @@
 <div class="cart">
     <div class="cart__img">
         <picture>
-            <source srcset="/img/circle.avif 1000w,
-                           /img/circle-700-400.avif 800w"
-                            type="image/avif">
-            <source srcset="/img/circle.webp 1000w,
-                            /img/circle-700-400.avif 800w"
-                             type="image/webp">
+            <source srcset="/img/circle.avif 1000w" type="image/avif" sizes="1000px">
+            <source srcset="/img/circle-700-400.avif 800w" type="image/avif" sizes="800px">
+            
+            <source srcset="/img/circle.webp 1000w" type="image/webp" sizes="1000px">
+            <source srcset="/img/circle-700-400.webp 800w" type="image/webp" sizes="800px">
+            
             <img srcset="/img/circle-700-400.jpg 800w"
                     src="/img/circle.jpg" alt="circle and men"
                           loading="lazy" decoding="async"
-                          width="1000" height="350">
+                          width="400" height="350" sizes="100vw">
         </picture>
     </div>
     <div class="cart__title">
@@ -151,9 +180,9 @@
       
 <footer>
     <div class="social">
+        <p>We are in social networks:</p>
         <ul>
-            <p>We are in social networks:</p>
-            <li><a href="https://vk.com/midlcode" target="_blank"><img src="/img/social/vk_icon.svg" alt="vk_icon" width="40" height="40"></a></li>
+            <li><a href="https://vk.com/midlcode" target="_blank" rel="noopener"><img src="/img/social/vk_icon.svg" alt="vk_icon" width="40" height="40"></a></li>
             
         </ul>
     </div>
@@ -166,7 +195,7 @@
   <!-- <script async src="js.js"></script> -->
 
    <!-- Yandex.Metrika counter -->
-   <script async type="text/javascript" >
+   <script >
     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
     m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
     (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");

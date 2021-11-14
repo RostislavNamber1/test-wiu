@@ -14,8 +14,6 @@
   <meta name="keywords" content="css, flex, display flex, midlcode, display flex css, display flex space between, display flex html, display flex justify-content, display flex align items, display flex align center, display flex align, display flex center">
   <!-- для индексации поскового робота -->
   <meta name="robots" content="index, follow">
-  <!-- кононическая ссылка -->
-  <link rel="canonical" href="https://midlcode.com/ru/article/display-flex.html" />
   <!-- иконки для сайта -->
   
 <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -29,10 +27,13 @@
   <!-- подключение стилей -->
   <link rel="stylesheet" href="/style/style.css">
 
+     <!-- кононическая ссылка -->
+     <link rel="canonical" href="https://midlcode.com/article/display-flex.html" />
+
   <!-- альтернативные ссылки для языковых клонов страниц -->
-  <link rel="alternate" hreflang="x-default" href="https://midlcode.com/article/display-flex.html" /> 
   <link rel="alternate" hreflang="ru" href="https://midlcode.com/ru/article/display-flex.html" /> 
   <link rel="alternate" hreflang="en" href="https://midlcode.com/article/display-flex.html" /> 
+  <link rel="alternate" hreflang="x-default" href="https://midlcode.com/article/display-flex.html" /> 
   <!-- заголовком страницы сайта -->
 
 <!-- ****************************************************************************************************************** -->
@@ -91,42 +92,43 @@
           </div>    
           <div class="img__article">
             <picture>
-              <source srcset="/img/flex450.avif 800w,
-                              /img/flex.avif" type="image/avif">
-              <source srcset="/img/flex450.webp 800w,
-                              /img/flex.webp" type="image/webp">
+              <source srcset="/img/flex.avif 1000w" type="image/avif" sizes="1000px">
+              <source srcset="/img/flex450.avif 800w" type="image/avif" sizes="800px">
+  
+              <source srcset="/img/flex.webp 1000w" type="image/webp" sizes="1000px">
+              <source srcset="/img/flex450.webp 800w" type="image/webp" sizes="800px">
+              
                 <img srcset="/img/flex450.jpg 800w" 
-                        src="/img/flex.jpg" alt="круг и человек" loading="lazy" decoding="async"
-                 width="1000" height="350">
+                        src="/img/flex.jpg" alt="cirkle and men" loading="lazy" decoding="async"
+                 width="1000" height="350" sizes="100vw">
             </picture>
           </div>
           <div class="article-p">
               <h2>display: flex</h2>
               <p>In order to see the effect of flexible blocks, we need the following construction.</p>
-              
-              <code>
-                <span class="lang">html</span>
-                <pre>
-&lt;<span class="div-red">div</span> <span class="class-yelow">class="d-flex"</span>&gt;
-  &lt;<span class="div-red">div</span> <span class="class-yelow">class="item"</span>&gt;1&lt;/<span class="div-red">div</span>&gt;
-  &lt;<span class="div-red">div</span> <span class="class-yelow">class="item"</span>&gt;2&lt;/<span class="div-red">div</span>&gt;
-  &lt;<span class="div-red">div</span> <span class="class-yelow">class="item"</span>&gt;3&lt;/<span class="div-red">div</span>&gt;
-  &lt;<span class="div-red">div</span> <span class="class-yelow">class="item"</span>&gt;4&lt;/<span class="div-red">div</span>&gt;
-&lt;/<span class="div-red">div</span>&gt;</pre>
-<span class="lang">CSS</span>
-<span class="class-yelow"></span>
-                  <pre>
-<span class="class-yelow">.d-flex</span>{
-  display: <span class="class-yelow">flex;</span>
-  width: <span class="class-yelow">100%;</span>
-  min-height: <span class="class-yelow">200px;</span>
+
+<!-- ****************************************** -->    
+<pre><code>
+<span class="lang">html</span>
+  &lt;div class="d-flex"&gt;
+    &lt;div class="item"&gt;1&lt;/div&gt;
+    &lt;div class="item"&gt;2&lt;/div&gt;
+    &lt;div class="item"&gt;3&lt;/div&gt;
+    &lt;div class="item"&gt;4&lt;/div&gt;
+  &lt;/div&gt;
+
+<span class="lang">CSS</span>            
+.d-flex{
+  display: flex;
+  width: 100%;
+  min-height: 200px;
 }
-<span class="class-yelow">.item</span>{
-  width: <span class="class-yelow">100px;</span>
-  height: <span class="class-yelow">100px;</span>
-  border: <span class="class-yelow">1px solid #000;</span>
-}</pre>
-              </code>
+.item{
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+}</code></pre>
+<!-- ****************************************** -->
 
               <div class="d-flex">
                   <div class="item"></div>
@@ -139,12 +141,12 @@
 
               <h2>justify-content: flex-start (Default value)</h2>
               <p>With this property, we can achieve the initial position of the blocks. This value is set by the browser by default.</p>
-              <code>
-                  <pre>
-<span class="class-yelow">.d-flex</span>{
-  justify-content: <span class="class-yelow">flex-start</span>;
-}</pre>
-                </code>
+<!-- **************************************** -->
+<pre><code>.d-flex{
+  justify-content: flex-start;
+}
+</code></pre>
+<!-- ************************************** -->
               <div class="d-flex __start">
                   <div class="item"></div>
                   <div class="item"></div>
@@ -154,13 +156,11 @@
 
               <h2>justify-content: center</h2>
               <p>With this property, we can achieve alignment in the center of the horizontal axis.</p>
-                <code>
-                  <pre>
-<span class="class-yelow">.d-flex</span>{
-  justify-content: <span class="class-yelow">center</span>;
-}</pre>
-                </code>
-                
+<!-- ****************************************** -->
+<pre><code>.d-flex{
+  justify-content: center;
+}</code></pre>
+<!-- ****************************************** -->
                 <div class="d-flex __centr">
                   <div class="item"></div>
                   <div class="item"></div>
@@ -171,12 +171,12 @@
               
               <h2>justify-content: flex-end</h2>
               <p>By this property we can achieve that our blocks will be at the end of the parent block.</p>
-              <code>
-                  <pre>
-<span class="class-yelow">.d-flex</span>{
-  justify-content: <span class="class-yelow">flex-end</span>;
-}</pre>
-                </code>
+<!-- ****************************************** -->
+<pre><code>.d-flex{
+  justify-content: flex-end;
+}
+</code></pre>
+<!-- ****************************************** -->
               <div class="d-flex __end">
                   <div class="item"></div>
                   <div class="item"></div>
@@ -186,12 +186,13 @@
 
               <h2>justify-content: space-around</h2>
               <p>This property allows us to align our blocks at an equal distance from each other.</p>
-              <code>
-                  <pre>
-<span class="class-yelow">.d-flex</span>{
-  justify-content: <span class="class-yelow">space-around</span>;
-}</pre>
-                </code>
+<!-- ****************************************** -->
+<pre><code>
+.d-flex{
+  justify-content: space-around;
+}
+</code></pre>
+<!-- ****************************************** -->
               <div class="d-flex __sa">
                   <div class="item"></div>
                   <div class="item"></div>
@@ -201,12 +202,11 @@
 
               <h2>justify-content: space-evenly</h2>
               <p>The space-even property allows us to place our blocks at the same distance from each other. And on the sides of the screen, the distance increases.</p>
-              <code>
-                  <pre>
-<span class="class-yelow">.d-flex</span>{
-  justify-content: <span class="class-yelow">space-evenly</span>;
-}</pre>
-                </code>
+<!-- ****************************************** -->
+<pre><code>.d-flex{
+  justify-content: space-evenly;
+}</code></pre>
+<!-- ****************************************** -->
               <div class="d-flex __se">
                   <div class="item"></div>
                   <div class="item"></div>
@@ -216,12 +216,12 @@
               
               <h2>justify-content: space-between</h2>
               <p>The space-between property allows us to erase borders and positions blocks across the entire width of the parent block with the distance between other blocks.</p>
-              <code>
-                  <pre>
-<span class="class-yelow">.d-flex</span>{
-  justify-content: <span class="class-yelow">space-between</span>;
-}</pre>
-                </code>
+<!-- ****************************************** -->
+<pre><code>.d-flex{
+  justify-content: space-between;
+}
+</code></pre>
+<!-- ****************************************** -->
               <div class="d-flex __sb">
                   <div class="item"></div>
                   <div class="item"></div>
@@ -231,13 +231,12 @@
 
               <h2>align-items: center + justify-content: center</h2>
               <p>The two display flex properties align-items and justify-content in tandem and do a very good job in various tasks. If you write center to each property, then the blocks will be in the center of the parent block.</p>
-              <code>
-                  <pre>
-<span class="class-yelow">.d-flex</span>{
-  justify-content: <span class="class-yelow">center</span>;
-  align-items: <span class="class-yelow">center</span>;
-}</pre>
-                </code>
+<!-- ****************************************** -->
+<pre><code>.d-flex{
+  justify-content: center;
+  align-items: center;
+}</code></pre>
+<!-- ****************************************** -->
               <div class="d-flex __centr __ai">
                   <div class="item"></div>
                   <div class="item"></div>
@@ -247,13 +246,13 @@
 
               <h2>align-items: center + justify-content: space-around</h2>
               <p>Knowing what the justify-content: space-around property does, we will add align-items: center. And as a result, we can get an interesting arrangement of our blocks.</p>
-              <code>
-                  <pre>
-<span class="class-yelow">.d-flex</span>{
-  align-items: <span class="class-yelow">center</span>;
-  justify-content: <span class="class-yelow">space-around</span>;
-}</pre>
-                </code>
+<!-- ****************************************** -->
+<pre><code>.d-flex{
+  align-items: center;
+  justify-content: space-around;
+}
+</code></pre>
+<!-- ****************************************** -->
               <div class="d-flex __sa __ai">
                   <div class="item"></div>
                   <div class="item"></div>
@@ -263,13 +262,13 @@
 
               <h2>align-items: flex-start (Default value) + justify-content: center</h2>
               <p>Default value align-items be flex-start. </p>
-              <code>
-                  <pre>
-<span class="class-yelow">.d-flex</span>{
-  align-items: <span class="class-yelow">flex-start</span>;
-  justify-content: <span class="class-yelow">center</span>;
-}</pre>
-                </code>
+<!-- ****************************************** -->
+<pre><code>.d-flex{
+  align-items: flex-start;
+  justify-content: center;
+}
+</code></pre>
+<!-- ****************************************** -->
               <div class="d-flex __centr __ais">
                   <div class="item"></div>
                   <div class="item"></div>
@@ -279,13 +278,13 @@
 
               <h2>align-items: flex-end + justify-content: center</h2>
               <p>These values will give you that our blocks will be at the bottom of the block.</p>
-              <code>
-                  <pre>
-<span class="class-yelow">.d-flex</span>{
-  justify-content: <span class="class-yelow">center</span>;
-  align-items: <span class="class-yelow">flex-end</span>;
-}</pre>
-                </code>
+<!-- ****************************************** -->
+<pre><code>.d-flex{
+  justify-content: center;
+  align-items: flex-end;
+}
+</code></pre>
+<!-- ****************************************** -->
               <div class="d-flex __centr __aie">
                   <div class="item"></div>
                   <div class="item"></div>
@@ -307,9 +306,9 @@
 
 <footer>
     <div class="social">
+        <p>We are in social networks:</p>
         <ul>
-            <p>We are in social networks:</p>
-            <li><a href="https://vk.com/midlcode" target="_blank"><img src="/img/social/vk_icon.svg" alt="vk_icon" width="40" height="40"></a></li>
+            <li><a href="https://vk.com/midlcode" target="_blank" rel="noopener"><img src="/img/social/vk_icon.svg" alt="vk_icon" width="40" height="40"></a></li>
             
         </ul>
     </div>
@@ -321,7 +320,7 @@
   <!-- <script async src="js.js"></script> -->
 
    <!-- Yandex.Metrika counter -->
-   <script async type="text/javascript" >
+   <script >
     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
     m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
     (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
