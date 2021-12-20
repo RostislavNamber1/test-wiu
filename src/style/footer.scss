@@ -1,0 +1,26 @@
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    flex-flow: row wrap;
+    ul{
+        display: flex;
+        gap: 1em;
+        flex-flow: row wrap;
+        li{
+            list-style: none;
+            // height: 40px;
+            a{
+                color: aliceblue;
+                text-decoration: none;
+            }
+        }
+    }
+}

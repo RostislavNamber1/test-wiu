@@ -1,0 +1,60 @@
+/* ************************************************************************* */
+/* первый блок название и картинка */
+.blog-main__img{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+.blok__img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.bagran{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    z-index: 2;
+    padding: 0 1%;
+}
+.blog__text{
+    margin: auto;
+    border: 2px solid #fff;
+    padding: 2rem;
+    text-align: center;
+    h1,p{
+        color: #fff;
+    }
+    p{
+        line-height: 1.8;
+    }
+    
+}
+.blog__text p{
+    margin: 1em 0;
+    font-size: 20px;
+}
+.razdel{
+    background-color: rgb(74, 132, 241);
+    border-radius: 5px;
+    padding: .2rem .3rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+/* ************************************************************************** */
+
+
+/* блок с карточками */
+.main__carts{
+    width: 100%;
+    padding: 4%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 1em;
+}
