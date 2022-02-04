@@ -43,6 +43,12 @@ article h1{
     display: flex;
     flex-flow: column;
     gap: 1em;
+    ul{
+        *+*{
+            margin-top: 1.5rem;
+            
+        }
+    }
 }
 .article-p p{
     font-size: 20px;
@@ -134,4 +140,15 @@ pre code{
 }
 .blur{
     filter: blur(150px);
+}
+.rad0{
+    border-radius: 0;
+}
+.anima-grad{
+    animation: anima-gradient 5s ease-in-out infinite;
+}
+@keyframes anima-gradient {
+    50%{
+        filter: blur(10px);
+    }
 }

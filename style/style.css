@@ -360,6 +360,9 @@ article h1 {
           flex-flow: column;
   gap: 1em;
 }
+.article-p ul * + * {
+  margin-top: 1.5rem;
+}
 
 .article-p p {
   font-size: 20px;
@@ -473,6 +476,28 @@ pre code {
           filter: blur(150px);
 }
 
+.rad0 {
+  border-radius: 0;
+}
+
+.anima-grad {
+  -webkit-animation: anima-gradient 5s ease-in-out infinite;
+          animation: anima-gradient 5s ease-in-out infinite;
+}
+
+@-webkit-keyframes anima-gradient {
+  50% {
+    -webkit-filter: blur(10px);
+            filter: blur(10px);
+  }
+}
+
+@keyframes anima-gradient {
+  50% {
+    -webkit-filter: blur(10px);
+            filter: blur(10px);
+  }
+}
 .circle200px {
   width: 200px;
   height: 200px;
