@@ -118,6 +118,39 @@
 </url>
 <!-- 2 статья -->
 
+<!-- 3 статья -->
+<url>
+  <loc>https://midlcode.com/article/gradient.html</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://midlcode.com/ru/article/gradient"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://midlcode.com/article/gradient.html"/>
+  <lastmod>2022-02-04T11:00:00+03:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<!-- 3 статья -->
+<!-- 3 статья -->
+<url>
+  <loc>https://midlcode.com/ru/article/gradient.html</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://midlcode.com/ru/article/gradient"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://midlcode.com/article/gradient.html"/>
+  <lastmod>2022-02-04T11:00:00+03:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<!-- 3 статья -->
+
 <!-- Раздел с макетами -->
 <url>
   <loc>https://midlcode.com/maket/</loc>
