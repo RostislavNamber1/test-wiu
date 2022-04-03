@@ -52,9 +52,9 @@
 /* блок с карточками */
 .main__carts{
     width: 100%;
-    padding: 4%;
+    padding: 2%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    gap: 2.5em;
+    gap: 2rem;
 }

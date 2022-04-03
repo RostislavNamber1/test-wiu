@@ -221,7 +221,7 @@ h1 {
 /* блок с карточками */
 .main__carts {
   width: 100%;
-  padding: 4%;
+  padding: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -231,7 +231,7 @@ h1 {
           flex-flow: row wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  gap: 2.5em;
+  gap: 2rem;
 }
 
 .cart {
@@ -290,6 +290,23 @@ h1 {
 }
 .cart__more a:hover {
   background-color: black;
+}
+
+.cart__img .shadoo {
+  position: absolute;
+  z-index: 1;
+}
+.cart__img .shadoo :hover {
+  visibility: visible;
+}
+
+.cart__img .main {
+  position: absolute;
+  z-index: 2;
+}
+.cart__img .main :hover {
+  opacity: 0;
+  z-index: 0;
 }
 
 /* ******************************************************************* */
