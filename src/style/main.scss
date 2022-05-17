@@ -49,12 +49,62 @@
 /* ************************************************************************** */
 
 
-/* блок с карточками */
+/* блок с карточками макетов фигмы */
 .main__carts{
     width: 100%;
-    padding: 2%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
-    gap: 2rem;
+    gap: .5rem;
+    justify-content:space-around;
+    align-items: center;
+    .cart-maket {
+        max-width: 1200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        padding: 1rem 0;
+        @media (max-width: 991px) {
+            flex-direction: column-reverse;
+          }
+        .cart__img {
+            width: 600px;
+            height: 450px;
+            box-shadow: 5px 5px 10px rgb(78, 78, 78);
+              @media (max-width: 1199px) {
+                width: 400px;
+                height: 320px;
+              }
+              @media (max-width: 500px){
+                  width: 80%;
+              }
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .cart__text {
+            max-width: 500px;
+            *+*{
+                margin-top: 1.4rem;
+            }
+        }
+    }
+
 }
+
+
+
+
+.cart__title {
+    span{
+        font-size: 1.7rem;
+
+    }
+}
+.cart__time {
+}
+.cart__more {
+}
+

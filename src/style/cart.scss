@@ -29,12 +29,12 @@
 }
 .cart__more a{
     text-decoration: none;
-    background-color: rgb(75, 75, 75);
+    background-color: #3EA0EB;
     color: #fff;
     padding: .4rem .8rem;
     border-radius: 10px;
     transition: all .4s;
     &:hover{
-        background-color: rgb(0, 0, 0);
+        // background-color: rgb(0, 0, 0);
     }
 }
