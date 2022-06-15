@@ -54,9 +54,10 @@
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    gap: .5rem;
+    gap: .7rem;
     justify-content:space-around;
     align-items: center;
+    padding: 1em 0;
     .cart-maket {
         max-width: 1200px;
         display: flex;
@@ -70,7 +71,7 @@
         .cart__img {
             width: 600px;
             height: 450px;
-            box-shadow: 5px 5px 10px rgb(78, 78, 78);
+            box-shadow: 0px 0px 30px rgb(0, 0, 0);
               @media (max-width: 1199px) {
                 width: 400px;
                 height: 320px;
