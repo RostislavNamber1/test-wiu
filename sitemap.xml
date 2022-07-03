@@ -184,4 +184,82 @@
   <priority>0.8</priority>
 </url>
 <!-- Раздел с макетами -->
+
+<!-- Раздел с макетами -->
+<url>
+  <loc>https://midlcode.com/ru/maket/biznes/</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://midlcode.com/ru/maket/biznes/"/>
+  <lastmod>2022-07-03T11:00:00+03:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<!-- Раздел с макетами -->
+
+<!-- Раздел с макетами -->
+<url>
+  <loc>https://midlcode.com/ru/maket/blog/</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://midlcode.com/ru/maket/blog/"/>
+  <lastmod>2022-07-03T11:00:00+03:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<!-- Раздел с макетами -->
+
+<!-- Раздел с макетами -->
+<url>
+  <loc>https://midlcode.com/ru/maket/junior/</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://midlcode.com/ru/maket/junior/"/>
+  <lastmod>2022-07-03T11:00:00+03:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<!-- Раздел с макетами -->
+
+<!-- Раздел с макетами -->
+<url>
+  <loc>https://midlcode.com/ru/maket/online/</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://midlcode.com/ru/maket/online/"/>
+  <lastmod>2022-07-03T11:00:00+03:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<!-- Раздел с макетами -->
+
+<!-- Раздел с макетами -->
+<url>
+  <loc>https://midlcode.com/ru/maket/photographer/</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://midlcode.com/ru/maket/photographer/"/>
+  <lastmod>2022-07-03T11:00:00+03:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<!-- Раздел с макетами -->
+
+<!-- Раздел с макетами -->
+<url>
+  <loc>https://midlcode.com/ru/maket/portfolio/</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://midlcode.com/ru/maket/portfolio/"/>
+  <lastmod>2022-07-03T11:00:00+03:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<!-- Раздел с макетами -->
 </urlset>

@@ -292,6 +292,53 @@ h1 {
   font-size: 1.7rem;
 }
 
+main nav {
+  width: 100%;
+}
+main nav ul {
+  width: 100%;
+}
+main nav ul li {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1em;
+  padding: 0.5rem;
+}
+main nav ul li a {
+  padding: 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+@media (prefers-color-scheme: light) {
+  main nav ul li a {
+    color: #2d2d2d;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  main nav ul li a {
+    color: #eaeaea;
+  }
+}
+main nav ul li a:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 5px 5px 5px rgba(106, 112, 182, 0.526);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 5px 5px 5px rgba(106, 112, 182, 0.526);
+}
+
 .cart {
   width: 400px;
   min-height: 350px;
