@@ -15,7 +15,8 @@ font-family: "Impact";
 font-family: "Comic Sans MS";
  */
  h1{
-    font-size: clamp(1.8rem, 8vw - 2rem, 4rem); /*отзывчивый текст(крутая штука в SASS не работает)*/
+  font-size: 3rem;
+    // font-size: clamp(1.8rem, 8vw - 2rem, 4rem); /*отзывчивый текст(крутая штука в SASS не работает)*/
   }
   h2{}
   h3{}
@@ -25,4 +26,11 @@ font-family: "Comic Sans MS";
   p{}
   span{}
 
-  
+
+  i::before{
+    color: #5E78F3;
+    padding: 0 .5rem;
+  }
+.uil{
+  font-size: 1.5rem;
+}

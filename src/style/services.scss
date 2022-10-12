@@ -1,0 +1,121 @@
+.servis{
+    gap: 32px;
+}
+.stroke{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: .125rem #605850;
+}
+// .shadow{
+//     text-shadow: 6.25rem -18.75rem 0rem rgba(123, 208, 44, 0.146),
+//                  12.5rem 9.375rem 0rem rgba(21, 169, 169, 0.367);
+//     @media(max-width: 62.5rem) {
+//         text-shadow: 5rem -9.375rem 0rem rgba(123, 208, 44, 0.146),
+//         6.25rem 6.25rem 0rem rgba(21, 169, 169, 0.367);
+//         }
+// }
+
+.fon5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 80%;
+    border-right: .125rem dashed #605850;
+    border-bottom: .125rem dashed #605850;
+    @media(max-width: 62.5rem) {
+        width: 80%;
+     }
+    .fon6{
+        position: absolute;
+        bottom: -1%;
+        right: -1%;
+        border: .125rem solid #605850;
+        padding: 8px;
+        background-color: #C3BBA6;
+        span{
+            color:#605850;
+            font-size:large;
+        }
+    }
+}
+.blok-verstka {
+    width: 75%;
+    padding: 1em;
+    h2{
+        margin-left: -1.25rem;
+        padding-bottom: .625rem;
+    }
+}
+.verstka-opisanie {
+    width: 50%;
+    height: 100%;
+        li{
+            margin-left: .9375rem;
+            line-height: 1.5;
+        }
+}
+.verstka-img {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    .verstka-bloki-1 {
+        top: 0;
+        left: 0;
+        width: 12.5rem;
+        height: 12.5rem;
+        border-radius: .625rem;
+        background-color: #000;
+    }
+
+}
+[class^="verstka-bloki"] {
+    position: absolute;
+  }
+.verstkaC{
+    width: 80%;
+    min-height: 100vh;
+    text-align: center;
+    margin: auto;
+    .__blok1{
+        padding: 2rem 0;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .__blok2{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        font-size:larger;
+    }
+
+}
+.__stek{
+
+    span{
+        font-size: 4rem;
+        font-weight: 900;
+        color: #C3BBA6;
+        text-shadow: 1px 1px 2px rgb(74, 74, 74),
+        2px 2px 2px rgb(45, 45, 45),
+        3px 3px 2px rgb(92, 101, 145),
+        -1px -1px 2px rgb(140, 138, 138);
+
+    }
+
+}
+.kontakt{
+    ul{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        li{
+            width: 80px;
+
+            a{
+                img{
+
+                }
+            }
+        }
+    }
+}

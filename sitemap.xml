@@ -15,171 +15,29 @@
 <url>
   <loc>https://midlcode.com/</loc>
   <!-- для выявления альтернативов что бы не было конфликтов с поисковиками -->
-   <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://midlcode.com/ru/"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en"
-               href="https://midlcode.com/"/>
-  <lastmod>2021-10-31T02:25:34+00:00</lastmod>
+
+  <lastmod>2022-10-12T02:25:34+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 <!-- главная страница -->
-<!-- главная страница рузоны -->
-<url>
-  <loc>https://midlcode.com/ru/</loc>
-  <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://midlcode.com/ru/"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en"
-               href="https://midlcode.com/"/>
-  <lastmod>2021-10-31T02:25:37+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1.00</priority>
-</url>
-<!-- главная страница рузоны -->
 <!-- ******************************************************** -->
 
 
 
 <!-- ********************************************************************************************************** -->
-<!-- Первая статья -->
-<url>
-  <loc>https://midlcode.com/article/making-a-circle-in-30-seconds-on-pure-css.html</loc>
-  <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://midlcode.com/ru/article/making-a-circle-in-30-seconds-on-pure-css.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en"
-               href="https://midlcode.com/article/making-a-circle-in-30-seconds-on-pure-css.html"/>
-  <lastmod>2021-10-31T11:15:00+03:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<!-- Первая статья дубликат -->
-<url>
-  <loc>https://midlcode.com/ru/article/making-a-circle-in-30-seconds-on-pure-css.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://midlcode.com/ru/article/making-a-circle-in-30-seconds-on-pure-css.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en"
-               href="https://midlcode.com/article/making-a-circle-in-30-seconds-on-pure-css.html"/>
-  <lastmod>2021-10-31T11:15:00+03:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.8</priority>
-</url>
-<!-- Первая статья -->
 
 <!-- ********************************************************************************************************* -->
 
-<!-- 2 статья -->
-<url>
-  <loc>https://midlcode.com/ru/article/display-flex.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://midlcode.com/ru/article/display-flex.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en"
-               href="https://midlcode.com/article/display-flex.html"/>
-  <lastmod>2021-10-31T11:00:00+03:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.8</priority>
-</url>
-<!-- 2 статья -->
-
-<!-- 2 статья -->
-<url>
-  <loc>https://midlcode.com/article/display-flex.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://midlcode.com/ru/article/display-flex.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en"
-               href="https://midlcode.com/article/display-flex.html"/>
-  <lastmod>2021-10-31T11:00:00+03:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.8</priority>
-</url>
-<!-- 2 статья -->
-
-<!-- 3 статья -->
-<url>
-  <loc>https://midlcode.com/article/gradient.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://midlcode.com/ru/article/gradient"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en"
-               href="https://midlcode.com/article/gradient.html"/>
-  <lastmod>2022-02-04T11:00:00+03:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.8</priority>
-</url>
-<!-- 3 статья -->
-<!-- 3 статья -->
-<url>
-  <loc>https://midlcode.com/ru/article/gradient.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://midlcode.com/ru/article/gradient"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en"
-               href="https://midlcode.com/article/gradient.html"/>
-  <lastmod>2022-02-04T11:00:00+03:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.8</priority>
-</url>
-<!-- 3 статья -->
 
 <!-- Раздел с макетами -->
-<url>
-  <loc>https://midlcode.com/maket/</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://midlcode.com/ru/maket/"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en"
-               href="https://midlcode.com/maket/"/>
-  <lastmod>2022-01-04T11:00:00+03:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.8</priority>
-</url>
-<!-- Раздел с макетами -->
+
 
 <!-- Раздел с макетами -->
 <url>
   <loc>https://midlcode.com/ru/maket/</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en"
-               href="https://midlcode.com/maket/"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://midlcode.com/ru/maket/"/>
-  <lastmod>2022-01-04T11:00:00+03:00</lastmod>
+
+  <lastmod>2022-10-12T11:00:00+03:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.8</priority>
 </url>
@@ -188,11 +46,7 @@
 <!-- Раздел с макетами -->
 <url>
   <loc>https://midlcode.com/ru/maket/biznes/</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://midlcode.com/ru/maket/biznes/"/>
-  <lastmod>2022-07-03T11:00:00+03:00</lastmod>
+  <lastmod>2022-10-12T11:00:00+03:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.8</priority>
 </url>
@@ -201,11 +55,7 @@
 <!-- Раздел с макетами -->
 <url>
   <loc>https://midlcode.com/ru/maket/blog/</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://midlcode.com/ru/maket/blog/"/>
-  <lastmod>2022-07-03T11:00:00+03:00</lastmod>
+  <lastmod>2022-10-12T11:00:00+03:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.8</priority>
 </url>
@@ -214,11 +64,7 @@
 <!-- Раздел с макетами -->
 <url>
   <loc>https://midlcode.com/ru/maket/junior/</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://midlcode.com/ru/maket/junior/"/>
-  <lastmod>2022-07-03T11:00:00+03:00</lastmod>
+  <lastmod>2022-10-12T11:00:00+03:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.8</priority>
 </url>
@@ -227,11 +73,7 @@
 <!-- Раздел с макетами -->
 <url>
   <loc>https://midlcode.com/ru/maket/online/</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://midlcode.com/ru/maket/online/"/>
-  <lastmod>2022-07-03T11:00:00+03:00</lastmod>
+  <lastmod>2022-10-12T11:00:00+03:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.8</priority>
 </url>
@@ -240,11 +82,7 @@
 <!-- Раздел с макетами -->
 <url>
   <loc>https://midlcode.com/ru/maket/photographer/</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://midlcode.com/ru/maket/photographer/"/>
-  <lastmod>2022-07-03T11:00:00+03:00</lastmod>
+  <lastmod>2022-10-12T11:00:00+03:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.8</priority>
 </url>
@@ -253,11 +91,7 @@
 <!-- Раздел с макетами -->
 <url>
   <loc>https://midlcode.com/ru/maket/portfolio/</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://midlcode.com/ru/maket/portfolio/"/>
-  <lastmod>2022-07-03T11:00:00+03:00</lastmod>
+  <lastmod>2022-10-12T11:00:00+03:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.8</priority>
 </url>
