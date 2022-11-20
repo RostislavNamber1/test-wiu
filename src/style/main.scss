@@ -62,7 +62,6 @@
 .opa1{animation: opa 1s;}
 .main-text-h1{
     flex: 0 0 50%;
-    width: 50%;
     text-align: center;
 }
 .main-cart{
@@ -75,11 +74,11 @@
 .blok-reklama{
     position: sticky;
     top: 100px;
-    min-width: 200px;
+    min-width: 300px;
     height: 100%;
     min-height: 500px;
     // background-color: #3d3d3d46;
-    background-color: rgb(250, 248, 253);
+    background-color: rgba(255, 255, 255, 0.20);
     @media screen and (max-width: 1000px){
         display: none;
     }
@@ -89,9 +88,13 @@
     box-shadow: 0 0 5px rgba(103, 103, 103, 0.323);
 }
 .blok-reklama{
-    padding: 1rem 0;
     border-radius: 10px 0 0 10px;
     box-shadow: 0 0 5px rgba(103, 103, 103, 0.323);
+    display: flex;
+    @media screen and (max-width: 1000px){
+        display: none;
+    }
+
 }
 .nav-cart{
     width: 100%;
@@ -152,17 +155,17 @@
     width: 300px;
     padding: 2rem 0;
     border-radius: 10px;
-    background-color: #dcdbdb00;
+    background-color: #ffffff30;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
     gap: 1em;
-    box-shadow: 0px 0px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     transition: all .3s;
     border: 1px solid rgb(54, 54, 54);
     &:hover{
-        box-shadow: 10px 10px 0;
+        box-shadow: 10px 10px 10px #000;
         transform: translate(-10px,-10px);
     }
     .main-kart-text{
@@ -363,4 +366,9 @@
     box-shadow: 0px 0px 5px #261B33;
 }
 .politra-text {
+}
+
+i::before{
+    font-size: 3rem;
+    padding-right: 10px;
 }

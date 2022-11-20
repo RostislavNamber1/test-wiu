@@ -7,13 +7,13 @@
     /* border: 1px solid; */
     padding: 0 0 20px 0;
     gap: 1em;
-    box-shadow:  0 0 8px 1px rgba(0, 0, 0, 0.349) ;
+    box-shadow:  0 0 8px rgb(0, 0, 0) ;
     border-radius: 10px;
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: #ffffff30;
     &:hover{
-        transition: all .3s;
-        box-shadow: 10px 10px 0;
+        transition: cubic-bezier(0, 0, 1, 1) .2s;
+        box-shadow: 5px 10px 8px #000;
         transform: translate(-5px,-5px);
     }
 }
@@ -26,15 +26,26 @@
     padding: 0 10px;
     color: rgb(50, 50, 50);
 }
+.cart__title{
+    span, p{
+        font-size: 0px;
+    }
+
+}
 .cart__time{
     display: flex;
     flex-flow: row;
+    gap: .5rem;
     justify-content: space-between;
 }
 .cart__more a{
     text-decoration: none;
-    background-color: #192C2D;
-    color: #fafafa;
-    padding: .4rem .8rem;
-    border-radius: 10px;
+    padding: 0 .3rem;
+}
+.cart__more{
+    .verstka-zakaz{
+    }
+    *+*{
+        margin-left: 5px;
+    }
 }
